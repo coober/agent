@@ -10,10 +10,10 @@ import commands
 import urllib2
 import base64
 
-####a.diy.locker.lockerma.com#######
-A_DIY_LOCKER_LOCKERMA_COM_DOMAIN = 'a.diylocker.lockerma.com'
-A_DIY_LOCKER_LOCKERMA_COM_PORTS = [8081,8082,8083,8084,8085]
-A_DIY_LOCKER_LOCKERMA_COM_PATH = 'scene/recommends/all'
+####xxx.com#######
+DOMAIN = 'URL'
+PORTS = [8081,8082,8083,8084,8085]
+PATH = 'scene/recommends/all'
 
 
 
@@ -78,5 +78,5 @@ def main(DOMAIN, PORTS, PATH):
 if __name__ == '__main__':
 	proc = commands.getoutput(''' ps -ef|grep 'check-tomcat-status.py'|grep -v grep|wc -l ''')
 	if int(proc) < 5:
-		main(A_DIY_LOCKER_LOCKERMA_COM_DOMAIN, A_DIY_LOCKER_LOCKERMA_COM_PORTS, A_DIY_LOCKER_LOCKERMA_COM_PATH)
+		main(DOMAIN, PORTS, PATH)
 
