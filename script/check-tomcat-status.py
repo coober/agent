@@ -11,9 +11,9 @@ import urllib2
 import base64
 
 ####xxx.com#######
-DOMAIN = 'URL'
-PORTS = [8081,8082,8083,8084,8085]
-PATH = 'scene/recommends/all'
+DOMAIN = 'dh.holalauncher.com'
+PORTS = [8081,8082,8083,8084,8085,8086,8087,8088,8089,8090,8091,8092]
+PATH = 'l/api/log/operate/write'
 
 
 
