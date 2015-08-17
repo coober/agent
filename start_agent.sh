@@ -1,2 +1,2 @@
 #!/bin/bash
-su - qiigame -c "/opt/agent/control start"
+su - game -c "/opt/agent/control start"
